@@ -1,0 +1,5 @@
+@use "./src/placeholders";
+
+.pl {
+  @extend %placeholder;
+}

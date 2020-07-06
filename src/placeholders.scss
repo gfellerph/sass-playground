@@ -1,0 +1,13 @@
+@use "./some-other-placeholder";
+
+%placeholder {
+  @extend %third-placeholder;
+  display: block;
+}
+
+// Comment this out or place it above %placeholder to make the build work
+// WHAT!
+%whatever {
+  @extend %placeholder;
+  position: relative;
+}
