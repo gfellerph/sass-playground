@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.scss",
   "dependencies": {
-    "sass": "^1.26.9"
+    "sass": "^1.26.10"
   },
   "devDependencies": {},
   "scripts": {
